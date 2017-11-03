@@ -1,7 +1,7 @@
 #This is a python project
 language: python
 #This project requires Python 3.5
-rvm:
+python:
  - 3.5
 #How to run tests
 script: make
