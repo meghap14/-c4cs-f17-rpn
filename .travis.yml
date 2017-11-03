@@ -5,4 +5,6 @@ python:
  - 3.5
 #How to run tests
 script: make
-
+#coveralls
+after_success:
+  - coveralls
