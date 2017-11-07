@@ -9,7 +9,9 @@ import sys
 ops = {
     "+" : operator.add, 
     "-" : operator.sub,
-    "^" : operator.pow
+    "^" : operator.pow,
+    "/" : operator.div,
+    "*" : operator.mul
 }
 
 def calculate(arg):
