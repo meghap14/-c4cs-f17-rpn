@@ -4,7 +4,11 @@ language: python
 python:
  - 3.5
 #How to run tests
+install:
+ - pip install nosetests
+ - pip install coverage
 script: make
+
 #coveralls
 after_success:
   - coveralls
