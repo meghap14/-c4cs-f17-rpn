@@ -10,7 +10,7 @@ ops = {
     "+" : operator.add, 
     "-" : operator.sub,
     "^" : operator.pow,
-    "/" : operator.div,
+   # "/" : operator.div,
     "*" : operator.mul
 }
 
