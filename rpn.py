@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
 import operator
+import readline
+import sys
+#from colors import *
+
+#sys.stdout.write(GREEN)
 
 ops = {
     "+" : operator.add, 
@@ -18,8 +23,9 @@ def calculate(arg):
             function = ops[token]
             result = function(arg1, arg2)
             stack.append(result)
-            
-    print(stack)
+           
+    print("\033[1;33;44m The answer is: ", stack)
+    print("\033[1;37;40m")
     return stack.pop()
     pass
 
