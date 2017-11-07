@@ -5,7 +5,7 @@ python:
  - 3.5
 #How to run tests
 install:
- - pip install nosetests
+ - pip install nose
  - pip install coverage
 script: make
 
